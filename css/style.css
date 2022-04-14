@@ -16,10 +16,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  position: relative;
 }
 
 .header .header-inner .logo {
   width: 147px;
+  font-size: 19px;
 }
 
 .header .header-inner .nav {
@@ -62,5 +64,27 @@
           transform: translateX(-50%);
   border-radius: 50%;
   background: #0A34A2;
+}
+
+.header .header-inner .nav-icon {
+  display: inline-block;
+  width: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  z-index: 100;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .header-inner .nav-icon span {
+  background-color: #000;
+  content: "";
+  display: block;
+  height: 2px;
+  margin: 5px 0px;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 /*# sourceMappingURL=style.css.map */
