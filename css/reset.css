@@ -125,6 +125,6 @@ html:not(.mobile) ::-webkit-scrollbar-track {
 
 html:not(.mobile) ::selection {
     background: #f7fafe;
-    color: #08dbc7;
+    color: #0A34A2;
     text-shadow: none;
 }

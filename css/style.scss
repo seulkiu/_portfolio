@@ -1,4 +1,22 @@
+$color-bg:#EFDDD1;
+$color-point:#0A34A2;
+
 .wrap {
     width: 100%;
-    background:#EFDDD1;
+    background: $color-bg;
 }
+
+.header{
+    .header-inner{width: 1500px; margin: 0 auto; height: 96px; display: flex; align-items: center; justify-content: space-between;
+        .logo{width: 147px;}
+        .nav{display: block; width: calc(100%-147px);
+            .navmenu{display: flex; justify-content: right; align-items: center;
+                li{font-size: 19px; padding-right: 68px; cursor: pointer; 
+                    span.active{color:$color-point; position: relative;}
+                    span.active::before {content: ""; display: block; width: 6px; height: 6px; position: absolute; top: -10px; left: 50%; transform: translateX(-50%); border-radius: 50%; background: $color-point;}
+                }
+            }
+        }
+    }
+}
+
