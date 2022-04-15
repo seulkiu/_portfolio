@@ -6,10 +6,10 @@ $color-point:#0A34A2;
     background: $color-bg;
 }
 
-.header{
+.header{position: fixed; top:0; left: 0; z-index: 900; width: 100%; box-sizing: border-box; animation: fadeIn 0.3s linear forwards; box-shadow: 0px 10px 17px -8px rgba(181 191 199 / 26%);
     .header-inner{width: 1500px; margin: 0 auto; height: 96px; display: flex; align-items: center; justify-content: space-between; position: relative;
         .logo{width: 147px; font-size: 19px;}
-        .nav{display: block; width: calc(100%-147px);
+        .nav{display: block; width: calc(100%-147px); 
             .navmenu{display: flex; justify-content: right; align-items: center;
                 li{font-size: 19px; padding-right: 68px; cursor: pointer; 
                     span.active{color:$color-point; position: relative;}
@@ -21,5 +21,9 @@ $color-point:#0A34A2;
             span{background-color: #000; content: ""; display: block; height: 2px; margin: 5px 0px; transition: all 0.2s ease-in-out 0s;}
         }
     }
+}
+
+.container{position:relative; overflow: hidden; height: 100%;
+    .main-visual{height: 857px;}
 }
 
