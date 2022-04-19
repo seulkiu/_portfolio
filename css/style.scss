@@ -1,5 +1,6 @@
 $color-bg:#EFDDD1;
 $color-point:#0A34A2;
+$color-content:#F2F1ED;
 
 .wrap {
     width: 100%;
@@ -37,5 +38,7 @@ $color-point:#0A34A2;
             }
         }
     }
+
+    .about{background-color: $color-content;}
 }
 
