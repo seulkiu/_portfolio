@@ -60,7 +60,6 @@
 }
 
 .header .header-inner .nav .navmenu li span.active {
-  color: #0A34A2;
   position: relative;
 }
 
@@ -137,7 +136,6 @@
 
 .container .main-visual .layout .main-tit span {
   font-size: 2rem;
-  color: #0A34A2;
   padding-bottom: 1rem;
   display: inline-block;
 }
@@ -147,7 +145,6 @@
 }
 
 .container .main-visual .layout .main-tit h2 strong {
-  color: #0A34A2;
   font-weight: 600;
 }
 
